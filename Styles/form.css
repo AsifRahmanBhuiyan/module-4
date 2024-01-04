@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+    background-color: black;
+    height: 50px;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+nav ul{
+    color: azure;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_size{
+    padding: 1%;
+    background-color: black;
+    height: 600px;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+}
+
+form{
+    color: azure;
+}
+
+
+
+
+/* nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+nav{
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-20%);
+} */
